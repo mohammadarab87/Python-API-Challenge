@@ -14,14 +14,23 @@ Use the citipy module to list the nearest city to the latitudes and longitudes.
 Use the OpenWeatherMap API to request the current weather data from each unique city in your list.
 Parse the JSON data from the API request.
 Collect the following data from the JSON file and add it to a DataFrame:
+
 City, country, and date
+
 Latitude and longitude
+
 Maximum temperature
+
 Humidity
+
 Cloudiness
+
 Wind speed
+
 Current weather description.
+
 Filter the Pandas DataFrame based on temperature.
+
 created a series of scatter plots to showcase the following relationships:
 
 Latitude vs. Temperature
